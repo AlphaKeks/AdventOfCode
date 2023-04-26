@@ -6,7 +6,9 @@ you can even hear much louder sounds in the distance; how big do the animals get
 The device the Elves gave you has problems with more than just its communication system. You try to
 run a system update:
 
+```sh
 $ system-update --please --pretty-please-with-sugar-on-top Error: No space left on device
+```
 
 Perhaps you can delete some files to make space for the update?
 
@@ -40,8 +42,9 @@ $ ls
 ```
 
 The filesystem consists of a tree of files (plain data) and directories (which can contain other
-directories or files). The outermost directory is called /. You can navigate around the filesystem,
-moving into or out of directories and listing the contents of the directory you're currently in.
+directories or files). The outermost directory is called `/`. You can navigate around the
+filesystem, moving into or out of directories and listing the contents of the directory you're
+currently in.
 
 Within the terminal output, lines that begin with `$` are commands you executed, very much like some
 modern computers:
