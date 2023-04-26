@@ -1,0 +1,6 @@
+[workspace]
+members = ["advent_of_code", "2022"]
+
+[workspace.dependencies]
+anyhow = "1"
+itertools = "0.10"
