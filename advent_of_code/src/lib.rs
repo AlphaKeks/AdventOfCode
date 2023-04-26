@@ -36,6 +36,7 @@ pub trait AdventOfCode {
 		Self: Sized,
 	{
 		println!("--- Day {} ---", Self::DAY);
+		println!("{}", Self::PROBLEM);
 
 		let start = Instant::now();
 		let solution_a = self.part_a()?;

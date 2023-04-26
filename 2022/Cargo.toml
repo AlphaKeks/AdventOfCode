@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 advent_of_code = { path = "../advent_of_code" }
 anyhow = { workspace = true }
+clap = { workspace = true }
 itertools = { workspace = true }
