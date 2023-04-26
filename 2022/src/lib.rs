@@ -2,6 +2,7 @@ pub mod day1;
 pub mod day2;
 pub mod day3;
 pub mod day4;
+pub mod day5;
 
 #[cfg(test)]
 mod tests {
@@ -55,6 +56,19 @@ mod tests {
 
 		let part_b = day.part_b()?;
 		assert_eq!(part_b, 827);
+
+		Ok(())
+	}
+
+	#[test]
+	fn day5() -> Result<()> {
+		let mut day = day5::AoC::new(include_str!("./day5/input"));
+
+		let part_a = day.part_a()?;
+		assert_eq!(part_a, "FWNSHLDNZ");
+
+		let part_b = day.part_b()?;
+		assert_eq!(part_b, "RNRGDNFQG");
 
 		Ok(())
 	}
