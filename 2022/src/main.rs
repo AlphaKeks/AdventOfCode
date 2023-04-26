@@ -19,6 +19,7 @@ fn main() -> Result<()> {
 	match args.day {
 		1 => day1::AoC::new(include_str!("./day1/input")).run()?,
 		2 => day2::AoC::new(include_str!("./day2/input")).run()?,
+		3 => day3::AoC::new(include_str!("./day3/input")).run()?,
 		day => yeet!("Day {day} has not been solved yet.")
 	};
 
