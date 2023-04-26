@@ -88,7 +88,7 @@ impl AdventOfCode for AoC {
 
 		Ok(stacks
 			.into_iter()
-			.map(|stack| stack[0].to_string())
+			.map(|stack| stack[0])
 			.collect())
 	}
 
@@ -108,7 +108,7 @@ impl AdventOfCode for AoC {
 
 		Ok(stacks
 			.into_iter()
-			.map(|stack| stack[0].to_string())
+			.map(|stack| stack[0])
 			.collect())
 	}
 }
